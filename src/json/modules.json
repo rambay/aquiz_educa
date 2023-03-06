@@ -1,0 +1,32 @@
+{
+  "courses": [
+    {
+      "title": "Clases Dinámicas",
+      "description": "La particularidad de nuestros cursos es brindar enseñanza de manera didáctica y entretenida apoyándonos de lo visual y herramientas digitales",
+      "src": "../../assets/images/lesson01.png",
+      "alt": "Clases Dinamicas",
+      "id": 1
+    },
+    {
+      "title": "Pon a prueba tus conocimientos",
+      "description": "Pon en la practica a tus conocimientos con los diferentes y variados ejercicios online que te ofrecemos para ayudarte a comprender mas las materias.",
+      "src": "../../assets/images/lesson02.png",
+      "alt": "Clases Dinamicas",
+      "id": 2
+    },
+    {
+      "title": "Mentoria Constante",
+      "description": "Tienes a disposición por parte de los docentes asesoría particular que te ayuden a solucionar inquietudes.",
+      "src": "../../assets/images/lesson03.png",
+      "alt": "Clases Dinamicas",
+      "id": 3
+    },
+    {
+      "title": "Recursos Digitales",
+      "description": "Cuentas con las mejores herramientas digitales desde archivos, libros, audios y videos, asi mismo te brindamos el mejor material para que refuerzes lo aprendido",
+      "src": "../../assets/images/lesson04.png",
+      "alt": "Clases Dinamicas",
+      "id": 4
+    }
+  ]
+}

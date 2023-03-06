@@ -1,0 +1,59 @@
+.ModulesCourses {
+  margin: 4em 0;
+  position: relative;
+  bottom: -165px;
+}
+
+.ModulesCourses-Flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ModulesCourse {
+  background: #1c5084;
+  border-radius: 30px 30px 0 0;
+  margin-right: 0.5em;
+  max-width: 285px;
+}
+
+.ModulesCourse__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 3em 0;
+  padding: 0 1em;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  height: 50px;
+}
+
+.ModulesCourse__description {
+  color: #fff;
+  margin: 2em 0;
+  padding: 0 1em;
+  font-size: 14px;
+  text-align: center;
+  height: 75px;
+}
+
+.ModulesCourse__img {
+  padding: 0 1em;
+  height: 185px;
+  margin: 4em 0;
+}
+
+.ModulesCourse__btn {
+  background: #5bc809;
+  display: block;
+  padding: 10px 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  transition: 0.3s;
+}
+
+.ModulesCourse__btn:hover {
+  background: #4bae00;
+}
