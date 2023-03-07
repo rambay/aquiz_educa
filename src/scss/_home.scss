@@ -1,0 +1,179 @@
+main {
+  display: grid;
+}
+
+.aquizHomeContainer {
+  margin: 5em 0;
+
+  .aquizHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__content {
+      margin-right: 6em;
+
+      .title {
+        color: #243d52;
+        text-transform: uppercase;
+        font-size: 32px;
+      }
+
+      .description {
+        margin-top: 1em;
+        text-align: left;
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+.ModulesInfoContainer {
+  .ModulesInfoList {
+    position: relative;
+    bottom: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ModulesInfo {
+    background: #1c5084;
+    border-radius: 30px 30px 0 0;
+    margin-right: 1em;
+    max-width: 285px;
+
+    .title {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin: 3em 0;
+      padding: 0 1em;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      height: 50px;
+    }
+
+    .description {
+      color: #fff;
+      margin: 2em 0;
+      padding: 0 1em;
+      font-size: 14px;
+      text-align: center;
+      height: 75px;
+    }
+
+    & img {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 1em;
+      height: 210px;
+      width: 210px;
+      object-fit: contain;
+    }
+
+    .btn {
+      background: #5bc809;
+      display: block;
+      padding: 10px 1em;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      transition: 0.3s;
+
+      &:hover {
+        background: #4bae00;
+      }
+    }
+  }
+}
+
+.SuscribeContainer {
+  background: linear-gradient(to right, #0b7d9a, #2051ad);
+  padding: 4em 0;
+
+  .Suscribe {
+    display: grid;
+    justify-items: center;
+
+    &__title {
+      text-align: center;
+      font-size: 50px;
+      font-family: "Lato", sans-serif;
+      color: #fff;
+      font-weight: bold;
+      padding-top: 2em;
+    }
+  }
+
+  .SuscribeBox {
+    max-width: 400px;
+    justify-self: center;
+
+    &__title {
+      font-family: "Lato", sans-serif;
+      color: #f2da00;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    &__description {
+      margin-top: 2em;
+      color: #fff;
+      font-size: 14px;
+      max-width: 350px;
+    }
+  }
+
+  .SuscribeForm {
+    margin-top: 1em;
+  }
+
+  .SuscribeFormContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+
+    label {
+      color: #fff;
+      display: block;
+      padding: 10px 0;
+    }
+
+    input {
+      width: 350px;
+      padding-left: 10px;
+      border-radius: 4px;
+      line-height: 3;
+      outline: 0;
+      border: 0;
+      display: block;
+    }
+
+    &__btn {
+      width: 350px;
+      display: flex;
+    }
+
+    button {
+      background: #b41143;
+      color: #fff;
+      padding: 0.5em 1em;
+      border: 0;
+      display: inline-block;
+      justify-self: right;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 1em;
+      justify-self: end;
+      border-bottom: 3px solid #b41143;
+
+      &:hover {
+        background: #cc1a50;
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.aboutUsContainer {
+  margin: 5em 0;
+
+  .aboutUsContent {
+    display: grid;
+  }
+
+  .aboutUs {
+    display: grid;
+    margin: 5em 0;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    &__image img {
+      width: 350px;
+    }
+
+    &__content {
+      h2 {
+        color: #243d52;
+        font-size: 32px;
+      }
+
+      p {
+        margin-top: 1.5em;
+        font-size: 14px;
+        width: 350px;
+      }
+    }
+  }
+
+  .aboutUsValues {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5em 0;
+    justify-items: center;
+
+    .CardValue {
+      display: flex;
+      column-gap: 2em;
+      padding: 20px;
+      align-items: center;
+      max-width: 575px;
+      border-radius: 12px;
+      background-color: #287fd6;
+
+      &:last-child {
+        background-color: #11af9f;
+      }
+
+      &__content {
+        max-width: 320px;
+
+        h3 {
+          color: #fff;
+          font-size: 25px;
+          font-family: "Lato", sans-serif;
+          margin-top: 0;
+        }
+
+        p {
+          margin-top: 1.5em;
+          color: #fff;
+          padding-top: 5px;
+        }
+      }
+
+      &__image img {
+        width: 180px;
+      }
+    }
+  }
+}
