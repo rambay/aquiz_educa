@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../componentes/Header";
-import Footer from "../componentes/Footer";
+import Footer from "../Componentes/Footer";
+import Navbar from "../Componentes/Navbar";
 
 function Layout(props) {
   return (
     <div className="Layout">
-      <Header />
+      <Navbar />
       {props.children}
       <Footer />
     </div>

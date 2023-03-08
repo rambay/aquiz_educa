@@ -1,0 +1,30 @@
+.NavbarContainer {
+  background: linear-gradient(to right, #0b7d9a, #2051ad);
+  height: auto;
+
+  .Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo img {
+      width: 140px;
+    }
+  }
+
+  .MenuNav ul {
+    display: flex;
+  }
+
+  .MenuNav li {
+    list-style: none;
+  }
+
+  .MenuNav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 2em;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}

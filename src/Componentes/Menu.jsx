@@ -33,13 +33,6 @@ function Menu() {
           );
         })}
       </ul>
-      <div className="Social">
-        <a href="#">
-          <i className="Social__icon fab fa-facebook" />
-        </a>
-        <i className="Social__icon fab fa-youtube" />
-        <a href="#" />
-      </div>
     </nav>
   );
 }

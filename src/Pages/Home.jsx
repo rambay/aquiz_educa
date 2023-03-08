@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import EducationImage from "/public/assets/images/home.webp";
 import suscribetIMG from "/public/assets/images/contacto.svg";
 
-import Layout from "../Template/Layout";
+import Header from "../Componentes/Header";
+import Footer from "../Componentes/Footer";
 import ModulesInfo from "../Componentes/ModulesInfo";
 import FormSuscribe from "../Componentes/FormSuscribe";
 
 class Home extends Component {
   render() {
     return (
-      <Layout>
+      <div className="Home">
+        <Header />
         <main>
           <section className="aquizHomeContainer">
             <div className="wrapper">
@@ -48,7 +50,8 @@ class Home extends Component {
             </div>
           </section>
         </main>
-      </Layout>
+        <Footer />
+      </div>
     );
   }
 }

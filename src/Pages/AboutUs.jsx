@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Layout from "../Template/Layout";
 import CardValue from "../Componentes/CardValue";
+import TitleBar from "../Componentes/TitleBar";
 
 import LogoAquiz from "/public/assets/images/logoAquiz.png";
 import misionImage from "/public/assets/images/mision.png";
@@ -25,6 +26,7 @@ class AboutUs extends Component {
   render() {
     return (
       <Layout>
+        <TitleBar title="Nosotros" />
         <main>
           <div className="aboutUsContainer">
             <div className="wrapper">

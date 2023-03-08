@@ -1,0 +1,62 @@
+{
+  "listCourses": [
+    {
+      "title": "Ciencia, Tecnología y Ambiente",
+      "courses": [
+        {
+          "badge": "badge1",
+          "name": "Teoría científica"
+        },
+        {
+          "badge": "badge2",
+          "name": "Celulas"
+        },
+        {
+          "badge": "badge3",
+          "name": "El cuerpo humano"
+        },
+        {
+          "badge": "badge4",
+          "name": "Los alimentos"
+        },
+        {
+          "badge": "badge5",
+          "name": "Las plantas"
+        },
+        {
+          "badge": "badge6",
+          "name": "Ecosistema"
+        }
+      ]
+    },
+    {
+      "title": "Matemáticas",
+      "courses": [
+        {
+          "badge": "badge1",
+          "name": "Números racionales"
+        },
+        {
+          "badge": "badge2",
+          "name": "Divisibilidad"
+        },
+        {
+          "badge": "badge3",
+          "name": "Fracciones y números racionales"
+        },
+        {
+          "badge": "badge4",
+          "name": "Proporcionalidad"
+        },
+        {
+          "badge": "badge5",
+          "name": "Sistema métrico decimal"
+        },
+        {
+          "badge": "badge6",
+          "name": "Polígonos"
+        }
+      ]
+    }
+  ]
+}
