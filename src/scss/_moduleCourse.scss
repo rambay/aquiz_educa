@@ -1,0 +1,37 @@
+.CoursesContainer {
+  margin: 5em 0;
+
+  .CoursesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    column-gap: 1.5em;
+  }
+}
+
+.ModuleCourse {
+  overflow: hidden;
+  border-radius: 12px;
+
+  header {
+    display: flex;
+    align-items: center;
+    background: green;
+    padding: 20px;
+    height: 80px;
+
+    h2 {
+      font-size: 18px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+
+  &__road {
+    padding: 20px;
+
+    ul li {
+      list-style: none;
+      margin: 1em 0;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.ContactContainer {
+  margin: 5em auto;
+
+  .Contact {
+    display: flex;
+    column-gap: 4px;
+    width: 650px;
+    box-shadow: 0 4px 8px rgba(197, 197, 197, 0.5);
+
+    &__background {
+      width: 400px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+        width: 500px;
+      }
+    }
+
+    &__form {
+      padding: 20px;
+      color: #1d1d1d;
+      width: 600px;
+
+      form {
+        margin-top: 2em;
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 12px;
+        }
+
+        button {
+          width: 100%;
+          font-size: 16px;
+          line-height: 2;
+          background-color: #faa84e;
+          cursor: pointer;
+          border: 0;
+
+          &:hover {
+            background-color: #f6b168;
+          }
+        }
+      }
+
+      form .input {
+        margin-bottom: 1em;
+      }
+
+      form .input label {
+        margin: 4px 0;
+        display: block;
+      }
+    }
+  }
+}

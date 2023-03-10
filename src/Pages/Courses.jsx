@@ -11,15 +11,21 @@ class Courses extends Component {
       <div className="Courses">
         <Layout>
           <TitleBar title="Cursos" />
-          {CoursesList.listCourses.map((course, idx) => {
-            return (
-              <ModuleCourse
-                key={idx}
-                name={course.title}
-                listCourses={course.courses}
-              />
-            );
-          })}
+          <div className="CoursesContainer">
+            <div className="wrapper">
+              <div className="CoursesList">
+                {CoursesList.listCourses.map((course, idx) => {
+                  return (
+                    <ModuleCourse
+                      key={idx}
+                      name={course.title}
+                      listCourses={course.courses}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+          </div>
         </Layout>
       </div>
     );
