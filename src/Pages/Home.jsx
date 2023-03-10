@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import EducationImage from "/public/assets/images/home.webp";
 import suscribetIMG from "/public/assets/images/contacto.svg";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import ModulesInfo from "../components/ModulesInfo";
-import FormSuscribe from "../components/FormSuscribe";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import ModulesInfo from "../Components/ModulesInfo";
+import FormSuscribe from "../Components/FormSuscribe";
 
 class Home extends Component {
   render() {

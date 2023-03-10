@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Layout from "../Template/Layout";
-import CardValue from "../components/CardValue";
-import TitleBar from "../components/TitleBar";
+import CardValue from "../Components/CardValue";
+import TitleBar from "../Components/TitleBar";
 
 import LogoAquiz from "/public/assets/images/logoAquiz.png";
 import misionImage from "/public/assets/images/mision.png";
