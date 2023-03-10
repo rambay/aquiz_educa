@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Layout from "../Template/Layout";
-import TitleBar from "../Componentes/TitleBar";
-import ModuleCourse from "../Componentes/ModuleCourse";
+import TitleBar from "../components/TitleBar";
+import ModuleCourse from "../components/ModuleCourse";
 
 import CoursesList from "../json/coursesList.json";
 

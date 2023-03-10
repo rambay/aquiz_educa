@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../Template/Layout";
-import TitleBar from "../Componentes/TitleBar";
+import TitleBar from "../components/TitleBar";
 import ContactBackground from "/public/assets/images/contactBackground.png";
 
 class Contact extends Component {

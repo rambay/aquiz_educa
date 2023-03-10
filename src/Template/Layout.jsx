@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../Componentes/Footer";
-import Navbar from "../Componentes/Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 function Layout(props) {
   return (
